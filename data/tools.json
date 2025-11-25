@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "name": "RoamTrip AI",
+    "desc": "AI travel assistant focused on itinerary building, local sim tips and co-working spots.",
+    "url": "https://example.com/roamtrip",
+    "tags": [
+      "travel",
+      "itinerary",
+      "nomad"
+    ],
+    "pricing": "freemium",
+    "category": "Travel",
+    "featured": true,
+    "region": "Global",
+    "added": "2025-06-01",
+    "logo": ""
+  },
+  {
+    "id": 2,
+    "name": "PocketCoder AI",
+    "desc": "Generates code snippets, fixes bugs and sets up tiny serverless endpoints \u2014 great on phones.",
+    "url": "https://example.com/pocketcoder",
+    "tags": [
+      "code",
+      "developer",
+      "automation"
+    ],
+    "pricing": "paid",
+    "category": "Development",
+    "featured": true,
+    "region": "Global",
+    "added": "2025-02-14",
+    "logo": ""
+  },
+  {
+    "id": 3,
+    "name": "NomadInvoice",
+    "desc": "Create simple invoices in seconds \u2014 multi-currency and GCash / PayPal notes for PH nomads.",
+    "url": "https://example.com/nomadinvoice",
+    "tags": [
+      "finance",
+      "invoicing",
+      "payments"
+    ],
+    "pricing": "free",
+    "category": "Finance",
+    "featured": false,
+    "region": "Philippines",
+    "added": "2024-11-20",
+    "logo": ""
+  },
+  {
+    "id": 4,
+    "name": "BrieflyAI Pack",
+    "desc": "Content briefing and drafts for blogs, micro-posts and newsletters. Fast templates for Beehiiv + Gumroad.",
+    "url": "https://example.com/briefly",
+    "tags": [
+      "content",
+      "marketing",
+      "newsletter"
+    ],
+    "pricing": "freemium",
+    "category": "Content",
+    "featured": false,
+    "region": "Global",
+    "added": "2025-03-10",
+    "logo": ""
+  },
+  {
+    "id": 5,
+    "name": "CoWork Finder",
+    "desc": "Finds co-working spaces and checks signal strength reports from other nomads.",
+    "url": "https://example.com/cowork",
+    "tags": [
+      "cowork",
+      "workspace",
+      "signal"
+    ],
+    "pricing": "free",
+    "category": "Travel",
+    "featured": false,
+    "region": "SEA",
+    "added": "2024-09-05",
+    "logo": ""
+  }
+]

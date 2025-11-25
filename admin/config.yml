@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: YOUR_USERNAME/YOUR_REPO_NAME # Replace with your repo
+  branch: main
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "tools"
+    label: "Tools"
+    folder: "content/tools"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Description", name: "desc", widget: "text" }
+      - { label: "Website", name: "url", widget: "string" }
+      - { label: "Logo (URL)", name: "logo", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Pricing", name: "pricing", widget: "select", options: ["free","freemium","paid"] }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Region", name: "region", widget: "string" }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: "Added", name: "added", widget: "datetime" }
