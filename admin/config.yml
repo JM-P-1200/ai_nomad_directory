@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YOUR_USERNAME/YOUR_REPO_NAME # Replace with your repo
+  repo: JM-P-1200/ai_nomad_directory # Replace with your repo
   branch: main
 
 media_folder: "static/uploads"
